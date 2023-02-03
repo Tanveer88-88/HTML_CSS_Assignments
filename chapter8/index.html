@@ -4,17 +4,215 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .video {
+        width: 450px;
+        height: 350px;
+        align-items: center;
+        display: block;
+        margin: auto;
+      }
+      .iframe{
+        width: 450px;
+        height: 350px;
+        align-items: center;
+        display: block;
+        margin: auto;
+      }
+      .footer{
+        background-color: rgb(34, 157, 214);
+        background-color: rgb(34, 157, 214);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
   </head>
   <body>
-    <div class="header" style="background-color: rgb(34, 157, 214)">
-      <img src="./images/blob.jfif" alt="" id="image" />
-      <label for="Home" style="display: inline; margin-left: 250px;">HOME</label>
-      <label for="About" style="display: inline; margin-left: 30px;">ABOUT</label>
-      <label for="PORTFOLIO" style="display: inline; margin-left: 30px;">PORTFOLIO</label>
-      <label for="CONTACT" style="display: inline; margin-left: 30px;">CONTACT</label>
-    </div>
-    <div>
-        <img src="./images/image2.jpg" alt="">
+    <div style="background-color: silver;">
+      <div
+        class="header"
+        style="
+          background-color: rgb(34, 157, 214);
+          width: 760;
+          border-radius: 25px;
+        "
+      >
+        <img src="./images/blob.jfif" alt="" id="image" />
+        <label for="Home" style="display: inline; margin-left: 250px"
+          >HOME</label
+        >
+        <label for="About" style="display: inline; margin-left: 30px"
+          >ABOUT</label
+        >
+        <label for="PORTFOLIO" style="display: inline; margin-left: 30px"
+          >PORTFOLIO</label
+        >
+        <label for="CONTACT" style="display: inline; margin-left: 30px"
+          >CONTACT</label
+        >
+      </div>
+
+      <img src="./images/image2.jpg" alt="" style="width: 1520px" />
+      <br />
+      <div class="middle">
+        <div class="para1" style="font-size: large">
+          <p>
+            STC is an innovator in the digital world, we help our clients
+            identify new opportunities, lead change, and differentiate their
+            brand. Our process is driven by data analysis coupled with a deep
+            understanding of the customer experience. Whether clients need
+            digital marketing services or consulting, they come to us to present
+            themselves effectively in the digital arena.Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Dolores impedit na m minima
+            suscipit minus cum ducimus, sequi saepe voluptas unde atque co
+            mmodi, sit voluptatum praesentium ratione aliquam quo quae officia
+            distinc tio. Dolores officiis eos repudiandae fugit excepturi quod
+            saepe odio ipsum. Quibusdam beatae impedit, assumenda tempore quis
+            provident aliquid prae sentium at dolorum obcaecati quaerat tenetur
+            sed voluptatem corrupti qua s asperiores numquam. Magnam blanditiis
+            ipsa commodi. Perferendis temp ore optio doloribus, totam in odit
+            blanditiis corrupti dolor consectetur aliqui d illo, eveniet unde.
+            Quos obcaecati cum cumque, optio rem similique …..
+          </p>
+        </div>
+        <div class="imageinP">
+          <img
+            src="./images/blob.jfif"
+            alt=""
+            style="height: 200px; width: 200px; border-radius: 25px"
+          />
+        </div>
+      </div>
+      <div>
+        <p style="padding-bottom: 0%; font-size: larger">
+          Th Profile Image Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Dolores impedit nam minima suscipit minus cum du cimus, sequi
+          saepe voluptas unde atque commodi, sit voluptatum praesentium ratione
+          aliquam quo quae offi cia distinctio. Dolores officiis eos repudiandae
+          fugit excepturi quod saepe odio ipsum. Quibusdam beatae ..
+        </p>
+        <ul style="padding-left: 2%; padding-top: 0%">
+          <li>Linux</li>
+          <li>HTML</li>
+          <li>Java-Script</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+        </ul>
+      </div>
+      <div class="video">
+        <iframe
+          width="450"
+          height="350"
+          src="https://www.youtube.com/embed/qz0aGYrrlhU"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+      <br />
+      <div class="image11">
+        <p style="font-size: large">
+          <img
+            src="./images/11.png"
+            alt=""
+            align="left"
+            style="padding-right: 1%; height: 100px"
+          />
+          <b>Why it’s special:</b>Robby incorporates an interactive experience
+          into his portfolio.<br /><b>What it’s about:</b>If you associate
+          portfolios with a dry list of facts, this portfolio might surprise
+          you. Robby found a novel way of displaying what was otherwise dry
+          information — he laid out his portfolio site as a videogame that the
+          visitor can actually play. This incredibly fun interactive design
+          portfolio will make you scroll …
+          <br />
+          <br />
+        </p>
+        <p style="font-size: large">
+          <img
+            src="./images/11.png"
+            alt=""
+            align="left"
+            style="padding-right: 1%; height: 100px"
+          />
+          <b>Why it’s special:</b>Robby incorporates an interactive experience
+          into his portfolio.<br /><b>What it’s about:</b>If you associate
+          portfolios with a dry list of facts, this portfolio might surprise
+          you. Robby found a novel way of displaying what was otherwise dry
+          information — he laid out his portfolio site as a videogame that the
+          visitor can actually play. This incredibly fun interactive design
+          portfolio will make you scroll …
+          <br />
+          <br />
+        </p>
+      </div>
+      <form action="http://www.example.com/review.php" method="get">
+        <fieldset>
+          <legend>Your Details:</legend>
+          <label for="Name">Name:</label>
+          <input type="text" name="Name" size="30" maxlength="100" />
+          <br />
+          <br />
+          <label for="Email">Email:</label>
+          <input type="email" name="Email" size="30" maxlength="100" />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Your Review:</legend>
+          <p>
+            <label for="hear-about"> where did you hear about us? </label>
+            <select name="referrer" id="hear-about">
+              <option value="google">Google</option>
+              <option value="friend">Friend</option>
+              <option value="advert">Advert</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+          <p>
+            Would you visit again?
+            <br />
+            <label for="rating">
+              <input type="radio" name="rating" id="yes" />
+              Yes
+            </label>
+            <label for="rating">
+              <input type="radio" name="rating" id="no" />
+              No
+            </label>
+            <label for="rating">
+              <input type="radio" name="rating" id="Maybe" />
+              Maybe
+            </label>
+          </p>
+          <p>
+            <label for="comments">Comments:</label>
+            <br />
+            <textarea name="" id="comments" cols="40" rows="5"></textarea>
+            <br />
+            <br />
+            <input type="checkbox" name="updates" />
+            Sign me up for email updates
+            <br />
+            <input type="submit" value="Submit review" />
+          </p>
+        </fieldset>
+      </form>
+      <div class="iframe">
+        <iframe width="450"
+        height="350"
+        src="http://maps.google.co.uk/maps?q=moma+new+york
+        &amp;output=embed">>
+        </iframe>
+      </div>
+      <br>
+      <footer class="footer">
+        <h4 class="footer_heading">Copyright © 2019. All rights reserved.</h4>
+      </footer>
     </div>
   </body>
 </html>
